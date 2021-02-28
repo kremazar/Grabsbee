@@ -41,4 +41,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function showNavMenu(){
+  document.getElementById('nav-desktop-menu').classList.toggle("visualy-hidden")
+}
 

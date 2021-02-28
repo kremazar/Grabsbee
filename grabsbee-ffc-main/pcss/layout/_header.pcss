@@ -1,5 +1,10 @@
 .logo {
   margin-bottom: 0;
+  & img {
+    @media (--large) {
+      height: 50px;
+    }
+  }
 }
 
 .header {
@@ -40,18 +45,35 @@
     padding-top: 30px;
   }
 }
-nav {
-  height: 50px;
-  background-color: var(--secondary__color);
-}
-li {
-  display: inline;
-  text-decoration: none;
-}
-ul {
-  margin-bottom: 50px;
-}
+
 #menu {
   height: 200px;
   background-color: white;
+}
+
+.nav-desktop {
+  @media (--large) {
+    height: 50px;
+    background-color: var(--secondary__color);
+    color: white;
+    padding: 15px 15px 15px 100px;
+    & li {
+      display: inline;
+      text-decoration: none;
+      padding-right: 15px;
+    }
+    & ul {
+      margin-bottom: 50px;
+    }
+  }
+}
+#nav-desktop-menu {
+  @media (--large) {
+    height: 200px;
+    background-color: white;
+    display: flex;
+    & ul {
+      margin: auto;
+    }
+  }
 }

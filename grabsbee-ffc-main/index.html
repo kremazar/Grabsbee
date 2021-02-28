@@ -43,97 +43,9 @@
               <span class="icon-shopping-cart"></span>
               <span class="visualy-hidden">Cart</span>
             </button>
-
-            <section class="visualy-hidden">
-              <h2>
-                <p>XY item in Cart</p>
-              </h2>
-
-              <button class="button--no-styles header__buttons">
-                <span>Close</span>
-                <span class="icon-x-circle"></span>
-              </button>
-
-              <ol>
-                <li>
-                  <div>
-                    <img src="" alt="Item name 1" />
-                  </div>
-
-                  <div>
-                    <h3>
-                      <a href="">Item name 1</a>
-                    </h3>
-
-                    <dl>
-                      <dt tabindex="0">Color</dt>
-                      <dd tabindex="0">Black</dd>
-                      <dt tabindex="0">Price</dt>
-                      <dd tabindex="0">10$</dd>
-                      <dt tabindex="0">Qty:</dt>
-                      <dd>
-                        <form>
-                          <fieldset>
-                            <legend>Items qty form</legend>
-                            <label for="qty">Items in Cart</label>
-                            <input name="qty" type="number" />
-                          </fieldset>
-                        </form>
-                      </dd>
-                    </dl>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <img src="" alt="Item name 2" />
-                  </div>
-
-                  <div>
-                    <h3>
-                      <a href="">Item name 2</a>
-                    </h3>
-
-                    <dl>
-                      <dt tabindex="0">Color</dt>
-                      <dd tabindex="0">Red</dd>
-                      <dt tabindex="0">Price</dt>
-                      <dd tabindex="0">12$</dd>
-                      <dt tabindex="0">Qty:</dt>
-                      <dd>
-                        <form>
-                          <fieldset>
-                            <legend>Items qty form</legend>
-                            <label for="qty">Items in Cart</label>
-                            <input name="qty" type="number" />
-                          </fieldset>
-                        </form>
-                      </dd>
-                    </dl>
-                  </div>
                 </li>
               </ol>
-
-              <table>
-                <caption>
-                  Your Cart Totals table
-                </caption>
-                <tbody>
-                  <tr>
-                    <th tabindex="0">Subtotal</th>
-                    <td tabindex="0">$$</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div>
-                <button>Proceed to checkout</button>
-                <a href="" title="Back to Cart page">View and edit cart</a>
-              </div>
-
-              <div>
-                <strong>You have no items in your shopping cart</strong>
-              </div>
-            </section>
+              
           </li>
 
           <li class="header__drawers-list__item">
@@ -143,109 +55,36 @@
               <span class="icon-menu"></span>
               <span class="visualy-hidden">Navigation Trigger</span>
             </button>
-
-            <nav class="visualy-hidden">
-              <ul>
-                <li>
-                  <h2>Frisbees</h2>
-
-                  <div>
-                    <h3 tabindex="0">Ultimate Frisbees</h3>
-
-                    <ul>
-                      <li>
-                        <a href="./layout-category-listing.html"
-                          >Innova Pulsar</a
-                        >
-                      </li>
-                      <li><a href="">Xcom</a></li>
-                      <li><a href="">Aviator - Marvel Captian America</a></li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 tabindex="0">Recreational</h3>
-
-                    <ul>
-                      <li><a href="">Nite</a></li>
-                      <li><a href="">Yikin</a></li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3>Contact us</h3>
-
-                    <ul>
-                      <li tabindex="0">Trg Slobode 6</li>
-                      <li><a href="tel:+385958811630">+385 95 8811630</a></li>
-                      <li>
-                        <a href="mailto:filip.svetlicic@gmail.com"
-                          >filip.svetlicic@gmail.com</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <h2>Clothing</h2>
-
-                  <div>
-                    <h3 tabindex="0">Ultimate Frisbees</h3>
-
-                    <ul>
-                      <li>
-                        <a href="./layout-category-listing.html"
-                          >Innova Pulsar</a
-                        >
-                      </li>
-                      <li><a href="./layout-category-listing.html">Xcom</a></li>
-                      <li>
-                        <a href="./layout-category-listing.html"
-                          >Aviator - Marvel Captian America</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3>Recreational</h3>
-
-                    <ul>
-                      <li><a href="">Nite</a></li>
-                      <li><a href="">Yikin</a></li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 tabindex="0">Contact us</h3>
-
-                    <ul>
-                      <li tabindex="0">Trg Slobode 6</li>
-                      <li><a href="tel:+385958811630">+385 95 8811630</a></li>
-                      <li>
-                        <a href="mailto:filip.svetlicic@gmail.com"
-                          >filip.svetlicic@gmail.com</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <h2>Accessories</h2>
-                </li>
-                <li>
-                  <h2>Contact us</h2>
-                </li>
-              </ul>
-
-              <button class="button--no-styles header__buttons">
-                <span>Close</span>
-                <span class="icon-x-circle"></span>
-              </button>
-            </nav>
           </li>
         </ul>
       </div>
+       <nav class="nav-desktop visualy-hidden-mobile">
+             <ul onclick="showNavMenu()">
+                <li>FREESBES &#x25BC</li>
+                <li>CLOTHING &#x25BC</li>
+                <li>ACCESSORIES &#x25BC</li>
+                 <li>CONTACT US &#x25BC</li>
+              </ul>
+        </nav>
+        <div id="nav-desktop-menu" class="visualy-hidden">
+          <ul>
+            <li>ULTIMATE FREESBES</li>
+            <li>INNOVA PULSAR</li>
+            <li>XCOM 175G</li>
+            <li>AVIATOR-MARVEL CAPTAIN AMERICA(COLLECTIOR)</li>
+          </ul>
+          <ul>
+            <li>RECREATIONAL</li>
+            <li>NITE IZE FLASHLITE</li>
+            <li>YIKUN 100G KIDS</li>
+          </ul>
+          <ul>
+            <li>CONTACT US</li>
+            <li>Trg pobjede 6</li>
+            <li>+385958811630</li>
+            <li>filip.svetlicic@gmail.com</li>
+          </ul>
+        </div>
       <div id="menu" class="visualy-hidden">
         <button  onclick="closeMenu()">
           <span>Close</span>
@@ -301,7 +140,7 @@
             <span>Close</span>
             <span class="icon-x-circle"></span>
           </button>
-          <h2 class="section-header">Shoping Cart</h2>
+          <h2 class="section-header">Recently added items</h2>
         <div class="cart-row">
             <span class="cart-item cart-header cart-column">ITEM</span>
             <span class="cart-price cart-header cart-column">PRICE</span>
@@ -313,7 +152,7 @@
             <strong class="cart-total-title">Total</strong>
             <span class="cart-total-price">$0</span>
         </div>
-        <button class="button button--primary" type="button">PURCHASE</button>
+        <button class="button button--primary" type="button">PROCEED TO CHECKOUT</button>
         </div>
       
       </div>
